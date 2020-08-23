@@ -1,0 +1,251 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2B30;
+    background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+a:hover,
+a:focus {
+    outline: 0;
+    text-decoration: none;
+}
+
+strong {
+    font-weight: 500;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.text-light {
+    font-weight: 300;
+    color: #2E2B30 !important;
+    line-height: 1.7;
+}
+
+.text-green {
+    color: #25BA06;
+}
+
+/* Video CSS */
+
+#video {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.video-box h2 {
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.video-js .vjs-big-play-button:focus,
+.video-js .vjs-big-play-button {
+    width: 300px;
+    height: 300px;
+    border: 0;
+    background: transparent;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    outline: 0;
+}
+
+.video-js:hover .vjs-big-play-button,
+.video-js .vjs-big-play-button:focus {
+    background-color: transparent;
+}
+
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+    content: "";
+    background-image: url('../images/play.png');
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: 55% calc(50% - 0px);
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/* Wrapper CSS */
+
+#wrapper {
+    padding-bottom: 60px;
+}
+
+.sec-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sec-title img {
+    margin-bottom: 30px;
+}
+
+.sec-title h2 {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.owl-carousel .owl-nav button:focus,
+.owl-carousel .owl-nav button {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    outline: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+
+.slider-item {
+    margin: 0 80px;
+}
+
+.slider-item .card {
+    border-radius: 0;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.slider-item .card-body {
+    padding: 30px 30px;
+}
+
+.slider-item .card-footer {
+    background: #fff;
+    border-top: 1px solid #333;
+}
+
+.slider-item .card-footer a {
+    color: #666;
+    text-transform: uppercase;
+}
+
+.slider-item .card-footer a:hover {
+    color: #000;
+}
+
+.slider-item h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+/* Footer CSS */
+
+#footer {
+    background-position: center center;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+}
+
+#footer .col-sm-12 {
+    position: inherit;
+    text-align: center;
+}
+
+.footer-nav {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    width: 100%;
+}
+
+.footer-nav li {
+    display: inline-block;
+}
+
+.footer-nav li a {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 20px;
+}
+
+.footer-nav li a:hover {
+    opacity: 0.8;
+}
+
+
+
+/* ---------------------------------------
+			Responsive Layout
+----------------------------------------- */
+
+/* Desktop layout */
+
+@media (min-width:1200px) {}
+
+
+/* Big tablet layout */
+
+@media only screen and (min-width:992px) and (max-width:1199px) {}
+
+
+/* Normal tablet layout */
+
+@media only screen and (min-width:768px) and (max-width:991px) {}
+
+/* Normal mobile layout */
+
+@media only screen and (max-width:767px) {
+    .video-box h2 {
+        font-size: 48px;
+    }
+
+    .video-js .vjs-big-play-button:focus,
+    .video-js .vjs-big-play-button {
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+        margin-top: -50px;
+    }
+
+    .slider-item {
+        margin: 0 30px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        left: -15px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next {
+        right: -15px;
+    }
+}
+
+
+/* Width mobile layout */
+
+@media only screen and (min-width:480px) and (max-width:767px) {}
